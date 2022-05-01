@@ -126,9 +126,18 @@
                             </a>
                         </div>
                         <div>
-                            <button class="button1">Contact Me</button>
+                            <button class="button1" type="button" onclick="myFunction()">Contact Me</button>
                         </div>
                     </div>
+                    <br>
+                    <br>
+                    <p id="contactme"></p>
+                    <script>
+                        function myFunction() {
+                            document.getElementById("contactme").innerHTML =
+                                "You can contact me at fikrip480@gmail.com";
+                        }
+                    </script>
             </div>
             <div class="photo">
                 <img height="453" src="img/photo.png" alt="Foto saya hehe">
